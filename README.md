@@ -15,13 +15,17 @@ Constructor is defined as follows: `SonicSensor(int, int)`.
 Following public methods are provided:
 
 `void setDebounce(int)` // set debounce - how much time must pass (in ms) before we can send ultrasonic beam to measure distance.
+
 `int getDebounce()` // get debounce (ms) [default 300ms]
 
 `int getDistance()` // gets distance to object in centimeters. It returns old distance if debounce time has not passed
 
 `void setMinimumDistance(int)` // sets minimum distance (in centimeters) [default 2cm]
+
 `int getMinimumDistance()` // gets minimum distance (in centimeters)
+
 `void setMaximumDistance(int)` // sets maximum distance (in centimeters) [default 200cm]
+
 `int getMaximumDistance()`  // gets maximum distance (in centimeters)
 
 ===================
