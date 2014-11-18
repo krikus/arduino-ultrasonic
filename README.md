@@ -8,7 +8,8 @@ Distance is provided in centimeters.
 
 ==================
 
-For start you need to create new object using SonicSensor uss = SonicSensor(trigger_pin, echo_pin);`.
+For start you need to create new object using `SonicSensor uss = SonicSensor(trigger_pin, echo_pin)`.
+
 Constructor is defined as follows: `SonicSensor(int, int)`.
 
 
